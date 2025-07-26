@@ -4,10 +4,10 @@ interface Product {
   description?: string;
 }
 
-const Product = {
+const product: Product = {
   id: 1,
   title: "Tablet",
   description: "Compact and fast",
 };
 
-console.log(`Product: ${JSON.stringify(Product)}`);
+console.log(`Product: ${JSON.stringify(product)}`);
